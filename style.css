@@ -9,7 +9,6 @@
 /* Navigation styling */
 
 #full{
-    /* height: 500vh; */
     width: 100%;
     display: flex;
 }
@@ -25,7 +24,6 @@ nav{
 }
 
 nav #up{
-    /* border: 2px solid; */
     height: 35%;
     width: 100%;
     display: flex;
@@ -56,7 +54,6 @@ nav #up #logo #pic{
 /* 2. lower site */
 
 nav #menu{
-    /* border: 2px solid; */
     height: 50%;
     width: 100%;
     display: flex;
@@ -94,7 +91,6 @@ nav #menu ul li{
 #socialLink{
     height: 15%;
     width: 100%;
-    /* border: 2px solid red; */
     display: flex;
     justify-content: space-around;
 }
@@ -102,7 +98,6 @@ nav #menu ul li{
 #linked{
     height: 50%;
     width: 30%;
-    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +126,6 @@ nav #menu ul li{
 #github{
     height: 50%;
     width: 30%;
-    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,7 +154,6 @@ nav #menu ul li{
 #leetcode{
     height: 50%;
     width: 30%;
-    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -198,10 +191,8 @@ nav #menu ul li{
 /* side section styles */
 
 #full .side{
-    border: 2px solid;
     height: 100%;
     width: 75%;
-    /* border: 1px solid red; */
     position: relative;
     left: 25%;
 }
@@ -705,27 +696,27 @@ nav #menu ul li{
 
 
 /* media query */
-@media(min-width:375px){
+@media(min-width:375px) and (max-width:667px){
 
     #full{
-        width: 100%;
+        width: 90%;
+        height: 100vh;
     }
 
     #full nav{
-        height: 100vh;
+        height: 100%;
         width: 30%;
-        gap: 5%;
-        /* position: fixed; */
+        position: fixed;
+        gap: 15%;
     }
 
     #full nav #up{
-        height: 23%;
-        width: 100%;
+        height: 15%;
     }
 
     #full nav #up #logo{
         height: 120px;
-        width: 110px;
+        width: 70px;
         background: white;
     }
 
@@ -735,28 +726,25 @@ nav #menu ul li{
     }
 
     #full nav #menu{
-        height: 30%;
+        height: 10%;
     }
 
     #full nav #menu ul{
+        flex-direction: column;
         justify-content: center;
-        gap: 15px;
+        gap: 5px;
     }
 
     #full nav #menu ul li{
-        height: 35px;
-        font-weight: 900;
-        font-size: 14px;
+        height: 55%;
+        width: 85%;
+        font-size: 15px;
     }
 
 
     #full nav #socialLink{
-        height: 22%;
-        /* border: 2px solid; */
-        display: flex;
+        height: 15%;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
     #full nav #socialLink #linked{
@@ -778,12 +766,11 @@ nav #menu ul li{
 
 
     /* side section */
-
     #full .side{
-        height: 100vh;
+        height: 100%;
         width: 70%;
-        position:relative;
-        left: 120px;
+        position: relative;
+        left: 30%;
     }
 
     #full .side #section1{
@@ -791,27 +778,33 @@ nav #menu ul li{
         width: 100%;
     }
 
+    #full .side #section1 .con1{
+        height: 35%;
+        width: 80%;
+        position: relative;
+        top: -105px;
+    }
+
     #full .side #section1 .con1 h3{
-        font-size: 25px;
-    }
-
-    #full .side #section1 .con1 h1{
-        height: 5%;
-        /* border: 2px solid; */
-        width: 200px;
-        display: flex;
-        justify-content: space-around;
-        font-size: 25px;
-    }
-
-    #full .side #section1 .con1 p{
         font-size: 15px;
     }
 
+    #full .side #section1 .con1 h1{
+        height: 25px;
+        width: 150px;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 20px;
+    }
+
+    #full .side #section1 .con1 p{
+        font-size: 5px;
+    }
+
     #full .side #section1 .con1 .Btn1{
-        height: 6%;
-        width: 35%;
-        font-size: 22px;
+        height: 5%;
+        width: 25%;
+        font-size: 8px;
         font-weight: bold;
     }
     
@@ -819,47 +812,40 @@ nav #menu ul li{
     /* about page style */
 
     #full .side #section2{
-        /* border: 2px solid; */
-        height: 100vh;
+        height: 100%;
         width: 100%;
     }
 
     #full .side #section2 .con2{
-        border: 2px solid;
         height: 80%;
         justify-content: space-evenly;
     }
 
     #full .side #section2 .con2 h1{
-        /* border: 2px solid; */
         font-size: 25px;
         height: 35px;
     }
 
     #full .side #section2 .con2 #details{
-        /* border: 2px solid; */
         height: 200px;
     }
 
     #full .side #section2 .con2 #details p{
-        /* border: 2px solid; */
-        font-size: 15px;
+        font-size: 10px;
     }
 
     #full .side #section2 .con2 #details .detailsBtn{
-        height: 25px;
-        width: 120px;
-        font-size: 15px;
+        height: 20px;
+        width: 100px;
+        font-size: 10px;
         font-weight: bold;
     }
 
     #full .side #section2 .con2 .check{
-        /* border: 2px solid; */
         height: 150px;
     }
 
     #full .side #section2 .con2 .check .check1{
-        /* border: 2px solid red; */
         height: 50px;
     }
 
@@ -876,22 +862,18 @@ nav #menu ul li{
 
 
     #full .side #section3{
-        /* border: 2px solid; */
-        height: 100vh;
+        height: 100%;
         width: 100%;
-        justify-content: center;
     }
 
     #full .side #section3 .eduHead{
         height: 10%;
         font-size: 20px;
-        /* border: 2px solid red; */
         padding-top: 25px;
     }
 
     #full .side #section3 .education{
         height: 50%;
-        /* border: 2px solid; */
         justify-content: center;
     }
 
@@ -913,9 +895,8 @@ nav #menu ul li{
     /* my education */
 
     #full .side #section4{
-        height: 100vh;
+        height: 100%;
         width: 100%;
-        /* justify-content: center; */
     }
 
     #full .side #section4 #protfolio{
@@ -951,34 +932,28 @@ nav #menu ul li{
     /* contact style page */
 
     #full .side #section5{
-        height: 100vh;
+        height: 100%;
         width: 100%;
-        /* border: 2px solid; */
-        /* justify-content: center; */
     }
 
     #full .side #section5 #contactHead{
         height: 35px;
         width: 100%;
-        /* border: 2px solid; */
         font-size: 25px;
     }
 
     #full .side #section5 #contact{
-        /* border: 2px solid; */
         width: 100%;
         height: 70%;
     }
 
     #full .side #section5 #contact #contact1 #details{
         font-size: 10px;
-        /* border: 2px solid; */
         height: 20%;
     }
 
     #full .side #section5 #contact #contact2{
         font-size: 15px;
-        /* border: 2px solid; */
         height: 60%;
     }
 
@@ -998,78 +973,5 @@ nav #menu ul li{
     }
 
     
-}
-
-@media (min-width:380px) {
-
-    #full nav{
-        gap: 6%;
-    }
-
-    #full nav #up{
-        height: 15%;
-    }
-
-    #full nav #menu{
-        height: 5%;
-    }
-
-    #full nav #menu ul{
-        justify-content: center;
-        gap: 5px;
-    }
-
-    #full nav #socialLink{
-        height: 15%;
-        /* border: 2px solid;
-        align-items: center;
-        justify-content: center; */
-    }
-
-    #full .side{
-        height: 100vh;
-        width: 70%;
-        position: relative;
-        left: 30%;
-        border: 2px solid;
-    }
-
-    #full .side #section1{
-        height: 50%;
-        width: 100%;
-        border: 2px solid;
-    }
-
-    #full .side #section2{
-        height: 50%;
-        width: 100%;
-        border: 2px solid;
-    }
-
-    #full .side #section3{
-        height: 50%;
-        width: 100%;
-        border: 2px solid;
-    }
-
-    #full .side #section4{
-        height: 50%;
-        width: 100%;
-        border: 2px solid;
-    }
-
-    #full .side #section5{
-        height: 50%;
-        width: 100%;
-        border: 2px solid;
-    }
-
-
-
-
-
-    .side{
-        /* display: none; */
-    }
 }
 
