@@ -975,3 +975,684 @@ nav #menu ul li{
     
 }
 
+@media(min-width:360px) and (max-width:740px){
+    #full{
+        width: 90%;
+        height: 100vh;
+    }
+
+    #full nav{
+        height: 100%;
+        width: 30%;
+        position: fixed;
+        gap: 15%;
+    }
+
+    #full nav #up{
+        height: 13%;
+    }
+
+    #full nav #up #logo{
+        height: 120px;
+        width: 70px;
+        background: white;
+    }
+
+    #full nav #up #desig h1, nav #up #desig h3{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    #full nav #menu{
+        height: 10%;
+    }
+
+    #full nav #menu ul{
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    #full nav #menu ul li{
+        height: 55%;
+        width: 85%;
+        font-size: 15px;
+    }
+
+
+    #full nav #socialLink{
+        height: 15%;
+        flex-direction: column;
+    }
+
+    #full nav #socialLink #linked{
+        height: 50px;
+        width: 95px;
+    }
+
+    #full nav #socialLink #github{
+        height: 50px;
+        width: 95px;
+    }
+
+    #full nav #socialLink #leetcode{
+        height: 50px;
+        width: 95px;
+    }
+
+    
+
+
+    /* side section */
+    #full .side{
+        height: 100%;
+        width: 70%;
+        position: relative;
+        left: 30%;
+    }
+
+    #full .side #section1{
+        height: 100%;
+        width: 100%;
+    }
+
+    #full .side #section1 .con1{
+        height: 35%;
+        width: 80%;
+        position: relative;
+        top: -105px;
+    }
+
+    #full .side #section1 .con1 h3{
+        font-size: 15px;
+    }
+
+    #full .side #section1 .con1 h1{
+        height: 25px;
+        width: 150px;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 20px;
+    }
+
+    #full .side #section1 .con1 p{
+        font-size: 5px;
+    }
+
+    #full .side #section1 .con1 .Btn1{
+        height: 5%;
+        width: 25%;
+        font-size: 8px;
+        font-weight: bold;
+    }
+    
+
+    /* about page style */
+
+    #full .side #section2{
+        height: 100%;
+        width: 100%;
+    }
+
+    #full .side #section2 .con2{
+        height: 80%;
+        justify-content: space-evenly;
+    }
+
+    #full .side #section2 .con2 h1{
+        font-size: 25px;
+        height: 35px;
+    }
+
+    #full .side #section2 .con2 #details{
+        height: 200px;
+    }
+
+    #full .side #section2 .con2 #details p{
+        font-size: 10px;
+    }
+
+    #full .side #section2 .con2 #details .detailsBtn{
+        height: 20px;
+        width: 100px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    #full .side #section2 .con2 .check{
+        height: 150px;
+    }
+
+    #full .side #section2 .con2 .check .check1{
+        height: 50px;
+    }
+
+    #full .side #section2 .con2 .check .check1 h2{
+        font-size: 9px;
+    }
+
+    #full .side #section2 .con2 .check .check1 p{
+        font-size: 5px;
+    }
+    
+
+    /* my education field */
+
+
+    #full .side #section3{
+        height: 100%;
+        width: 100%;
+    }
+
+    #full .side #section3 .eduHead{
+        height: 10%;
+        font-size: 20px;
+        padding-top: 25px;
+    }
+
+    #full .side #section3 .education{
+        height: 50%;
+        justify-content: center;
+    }
+
+    #full .side #section3 .education .edu{
+        height: 100px;
+        width: 100px;
+    }
+
+    #full .side #section3 .education .edu .circle{
+        width: 65px;
+    }
+
+    #full .side #section3 .education .edu p{
+        font-size: 10px;
+    }
+
+
+
+    /* my education */
+
+    #full .side #section4{
+        height: 100%;
+        width: 100%;
+    }
+
+    #full .side #section4 #protfolio{
+        height: 90%;
+        width: 100%;
+    }
+
+    #full .side #section4 #protfolio #headPort{
+        height: 10%;
+        width: 100%;
+        font-size: 25px;
+        padding-top: 15px;
+    }
+
+    #full .side #section4 #protfolio #projects .proj{
+        font-size: 7px;
+        height: 20%;
+        width: 45%;
+    }
+
+    #full .side #section4 #protfolio #projects .proj p{
+        height: 15px;
+        padding-top: 3px;
+    }
+
+    #full .side #section4 #protfolio #projects .proj a{
+        width: 20px;
+        height: 10px;
+    }
+
+
+
+    /* contact style page */
+
+    #full .side #section5{
+        height: 100%;
+        width: 100%;
+    }
+
+    #full .side #section5 #contactHead{
+        height: 35px;
+        width: 100%;
+        font-size: 25px;
+    }
+
+    #full .side #section5 #contact{
+        width: 100%;
+        height: 70%;
+    }
+
+    #full .side #section5 #contact #contact1 #details{
+        font-size: 10px;
+        height: 20%;
+    }
+
+    #full .side #section5 #contact #contact2{
+        font-size: 15px;
+        height: 60%;
+    }
+
+    #full .side #section5 #contact #contact2 form .inpt input{
+        font-size: 10px;
+    }
+
+    #full .side #section5 #contact #contact2 form #text ::placeholder{
+        font-size: 10px;
+    }
+
+    #full .side #section5 #contact #contact2 form .inpt button{
+        width: 55px;
+        height: 30px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+}
+
+@media(min-width:414px) and (max-width:896px) {
+    #full nav #up{
+        height: 15%;
+    }
+
+    #full nav #up #logo{
+        height: 100%;
+        width: 80%;
+    }
+
+    #full nav #up #logo #pic{
+        background-size:cover;
+    }
+}
+
+@media(min-width:390px) and (max-width:844px) {
+    #full nav #up #logo #pic{
+        background-size:cover;
+    }
+}
+
+@media(min-width:1024px) and (max-width:1366px){
+
+    #full nav #up{
+        height: 25%;
+        width: 90%;
+    }
+
+    #full nav #up #logo{
+        height: 100%;
+        width: 80%;
+    }
+
+
+    #full nav #up #logo #pic{
+        background-size:cover;
+    }
+}
+
+@media(min-width:912px) and (max-width:1368px) {
+
+    #full nav #up{
+        height: 40%;
+        width: 100%;
+    }
+
+    #full nav #up #logo{
+        height: 60%;
+        width: 50%;
+        justify-content: center;
+    }
+    
+    #full nav #up #logo #pic{
+        background-size:contain;
+    }
+}
+
+@media(min-width:540px) and (max-width:720px) {
+    #full nav #up{
+        height: 25%;
+        width: 90%;
+    }
+
+    #full nav #up #logo{
+        height: 100%;
+        width: 80%;
+    }
+
+    #full nav #socialLink{
+        height: 15%;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #full nav #socialLink #linked{
+        height: 50px;
+        width: 100px;
+    }
+
+    #full nav #socialLink #github{
+        height: 50px;
+        width: 100px;
+    }
+
+    #full nav #socialLink #leetcode{
+        height: 50px;
+        width: 100px;
+    }
+}
+
+@media(min-width:344px) and (max-width:882px) {
+    #full{
+        width: 90%;
+        height: 100vh;
+    }
+
+    #full nav{
+        height: 100%;
+        width: 30%;
+        position: fixed;
+        gap: 15%;
+    }
+
+    #full nav #up{
+        height: 13%;
+    }
+
+    #full nav #up #logo{
+        height: 120px;
+        width: 70px;
+        background: white;
+    }
+
+    #full nav #up #logo #pic{
+        background-size:cover;
+    }
+
+    #full nav #up #desig h1, nav #up #desig h3{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    #full nav #menu{
+        height: 10%;
+    }
+
+    #full nav #menu ul{
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    #full nav #menu ul li{
+        height: 55%;
+        width: 85%;
+        font-size: 15px;
+    }
+
+
+    #full nav #socialLink{
+        height: 15%;
+        flex-direction: column;
+    }
+
+    #full nav #socialLink #linked{
+        height: 50px;
+        width: 90px;
+    }
+
+    #full nav #socialLink #github{
+        height: 50px;
+        width: 90px;
+    }
+
+    #full nav #socialLink #leetcode{
+        height: 50px;
+        width: 90px;
+    }
+
+    
+
+
+    /* side section */
+    #full .side{
+        height: 100%;
+        width: 70%;
+        position: relative;
+        left: 30%;
+    }
+
+    #full .side #section1{
+        height: 100%;
+        width: 100%;
+    }
+
+    #full .side #section1 .con1{
+        height: 35%;
+        width: 80%;
+        position: relative;
+        top: -105px;
+    }
+
+    #full .side #section1 .con1 h3{
+        font-size: 15px;
+    }
+
+    #full .side #section1 .con1 h1{
+        height: 25px;
+        width: 150px;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 20px;
+    }
+
+    #full .side #section1 .con1 p{
+        font-size: 5px;
+    }
+
+    #full .side #section1 .con1 .Btn1{
+        height: 5%;
+        width: 25%;
+        font-size: 8px;
+        font-weight: bold;
+    }
+    
+
+    /* about page style */
+
+    #full .side #section2{
+        height: 100%;
+        width: 100%;
+    }
+
+    #full .side #section2 .con2{
+        height: 80%;
+        justify-content: space-evenly;
+    }
+
+    #full .side #section2 .con2 h1{
+        font-size: 25px;
+        height: 35px;
+    }
+
+    #full .side #section2 .con2 #details{
+        height: 200px;
+    }
+
+    #full .side #section2 .con2 #details p{
+        font-size: 10px;
+    }
+
+    #full .side #section2 .con2 #details .detailsBtn{
+        height: 20px;
+        width: 100px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    #full .side #section2 .con2 .check{
+        height: 150px;
+    }
+
+    #full .side #section2 .con2 .check .check1{
+        height: 50px;
+    }
+
+    #full .side #section2 .con2 .check .check1 h2{
+        font-size: 9px;
+    }
+
+    #full .side #section2 .con2 .check .check1 p{
+        font-size: 5px;
+    }
+    
+
+    /* my education field */
+
+
+    #full .side #section3{
+        height: 100%;
+        width: 100%;
+    }
+
+    #full .side #section3 .eduHead{
+        height: 10%;
+        font-size: 20px;
+        padding-top: 25px;
+    }
+
+    #full .side #section3 .education{
+        height: 50%;
+        justify-content: center;
+    }
+
+    #full .side #section3 .education .edu{
+        height: 100px;
+        width: 100px;
+    }
+
+    #full .side #section3 .education .edu .circle{
+        width: 65px;
+    }
+
+    #full .side #section3 .education .edu p{
+        font-size: 10px;
+    }
+
+
+
+    /* my education */
+
+    #full .side #section4{
+        height: 100%;
+        width: 100%;
+    }
+
+    #full .side #section4 #protfolio{
+        height: 90%;
+        width: 100%;
+    }
+
+    #full .side #section4 #protfolio #headPort{
+        height: 10%;
+        width: 100%;
+        font-size: 25px;
+        padding-top: 15px;
+    }
+
+    #full .side #section4 #protfolio #projects .proj{
+        font-size: 7px;
+        height: 20%;
+        width: 45%;
+    }
+
+    #full .side #section4 #protfolio #projects .proj p{
+        height: 15px;
+        padding-top: 3px;
+    }
+
+    #full .side #section4 #protfolio #projects .proj a{
+        width: 20px;
+        height: 10px;
+    }
+
+
+
+    /* contact style page */
+
+    #full .side #section5{
+        height: 100%;
+        width: 100%;
+    }
+
+    #full .side #section5 #contactHead{
+        height: 35px;
+        width: 100%;
+        font-size: 25px;
+    }
+
+    #full .side #section5 #contact{
+        width: 100%;
+        height: 70%;
+    }
+
+    #full .side #section5 #contact #contact1 #details{
+        font-size: 10px;
+        height: 20%;
+    }
+
+    #full .side #section5 #contact #contact2{
+        font-size: 15px;
+        height: 60%;
+    }
+
+    #full .side #section5 #contact #contact2 form .inpt input{
+        font-size: 10px;
+    }
+
+    #full .side #section5 #contact #contact2 form #text ::placeholder{
+        font-size: 10px;
+    }
+
+    #full .side #section5 #contact #contact2 form .inpt button{
+        width: 55px;
+        height: 30px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+}
+
+@media(min-width:853px) and (max-width: 1280px) {
+    #full nav #up{
+        height: 25%;
+        width: 90%;
+    }
+
+    #full nav #up #logo{
+        height: 80%;
+        width: 80%;
+    }
+
+    #full nav #socialLink{
+        height: 15%;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #full nav #socialLink #linked{
+        height: 50px;
+        width: 100px;
+    }
+
+    #full nav #socialLink #github{
+        height: 50px;
+        width: 100px;
+    }
+
+    #full nav #socialLink #leetcode{
+        height: 50px;
+        width: 100px;
+    }
+}
