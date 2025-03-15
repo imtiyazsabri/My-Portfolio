@@ -1,0 +1,1075 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+/* Navigation styling */
+
+#full{
+    /* height: 500vh; */
+    width: 100%;
+    display: flex;
+}
+
+/* 1. upersite  */
+nav{
+    height: 100vh;
+    width: 25%;
+    border-right: 5px solid white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+nav #up{
+    /* border: 2px solid; */
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav #up #logo{
+    height: 64%;
+    width: 45%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+nav #up #logo #pic{
+    height: 95%;
+    width: 95%;
+    background-image: url("./images/imtipassportsize.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+/* 2. lower site */
+
+nav #menu{
+    /* border: 2px solid; */
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav #menu ul{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+nav #menu ul li{
+    height: 15%;
+    width: 75%;
+    border: 2px solid white;
+    background: gray;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 8px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#menu ul li:hover{
+    border: 2px solid orange;
+    color: orange;
+}
+
+#socialLink{
+    height: 15%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+#linked{
+    height: 50%;
+    width: 30%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#linked a{
+    height: 50%;
+    width: 100%;
+    border: 2px solid;
+    text-decoration: none;
+    background-color: gray;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#linked a:hover{
+    background-color: orange;
+}
+
+#linked a i{
+    background-color: transparent;
+}
+
+#github{
+    height: 50%;
+    width: 30%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#github a{
+    height: 50%;
+    width: 100%;
+    border: 2px solid;
+    text-decoration: none;
+    background-color: gray;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#github a:hover{
+    background-color: orange;
+}
+
+#github a i{
+    background-color: transparent;
+}
+
+#leetcode{
+    height: 50%;
+    width: 30%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#leetcode a{
+    height: 50%;
+    width: 100%;
+    border: 2px solid;
+    text-decoration: none;
+    background-color: gray;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#leetcode a:hover{
+    background-color: orange;
+}
+
+#leetcode a i{
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+/* side section styles */
+
+#full .side{
+    border: 2px solid;
+    height: 100%;
+    width: 75%;
+    /* border: 1px solid red; */
+    position: relative;
+    left: 25%;
+}
+
+#full .side #section1{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid burlywood */
+}
+
+#full .side #section1 .con1{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+} 
+
+#full .side #section1 .con1 h3{
+    font-size: 3rem;
+}
+
+#full .side #section1 .con1 h1{
+    display: flex;
+    font-size: 5rem;
+}
+
+#full .side #section1 .con1 h1 span{
+    margin-left: 15px;
+    color: orange;
+}
+
+#full .side #section1 .con1 p{
+    text-align:center;
+    font-size: 1.2rem;
+    animation-name: write;
+    animation-duration: 2s;
+}
+
+@keyframes write {
+    from{
+        /* background-color: red; */
+    }
+    to{
+        /* background: white; */
+    }
+}
+
+#full .side #section1 .con1 .Btn1{
+    height: 10%;
+    width: 25%;
+    background-color: gray;
+    border: 2px solid;
+    font-size: 2rem;
+    margin: 1.5rem;
+    border-radius: 25px ;
+    cursor: pointer;
+}
+
+#full .side #section1 .con1 .Btn1:hover{
+    border: 2px solid orange;
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+/* About section */
+
+#full .side #section2{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#full .side #section2 .con2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#full .side #section2 .con2 h1{
+    height: 10%;
+    width: 90%;
+    font-size: 3rem;
+    text-align: center;
+
+    border-bottom: 1px solid gray;
+}
+
+#full .side #section2 .con2 h1 span{
+    color: orange;
+}
+
+#full .side #section2 .con2 #details{
+    height: 45%;
+    width: 90%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#full .side #section2 .con2 #details p{
+    font-size: 2rem;
+}
+
+#full .side #section2 .con2 #details p span{
+    color: orange;
+}
+
+#full .side #section2 .con2 #details .detailsBtn{
+    height: 15%;
+    width: 18%;
+    background-color: gray;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+#full .side #section2 .con2 #details .detailsBtn a{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#full .side #section2 .con2 #details .detailsBtn:hover{
+    background-color: orange;
+}
+
+#full .side #section2 .con2 .check{
+    height: 40%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:25px;
+}
+
+#full .side #section2 .con2 .check .check1{
+    height: 35%;
+    width: 25%;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#full .side #section2 .con2 .check .check1 h2{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+/* education section */
+
+#full .side #section3{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#full .side #section3 .eduHead{
+    height: 10%;
+    width: 90%;
+    font-size: 3rem;
+    font-weight: 700;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+#full .side #section3 .eduHead span{
+    color: orange;
+}
+
+#full .side #section3 .education{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+
+#full .side #section3 .education .edu{
+    height: 40%;
+    width: 40%;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#full .side #section3 .education .edu p{
+    height: 25%;
+    width: 100%;
+    padding-left: 5px;
+    /* text-align: center; */
+    /* border: 2px solid; */
+    font-size: 1.5rem;
+}
+
+#full .side #section3 .education .edu .circle{
+    height: 12%;
+    width: 35%;
+    text-align: center;
+    background-color: orange;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* protfolio projects */
+
+#full .side #section4{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#full .side #section4 #protfolio{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#full .side #section4 #protfolio #headPort{
+    height: 10%;
+    width: 90%;
+    border-bottom: 1px solid gray; 
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+#full .side #section4 #protfolio #headPort span{
+    color: orange;
+}
+
+#full .side #section4 #protfolio #projects{
+    height: 90%;
+    width: 90%;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#full .side #section4 #protfolio #projects .proj{
+    height: 30%;
+    width: 30%;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#full .side #section4 #protfolio #projects .proj .projDes{
+    color: orange;
+}
+
+#full .side #section4 #protfolio #projects .proj a:hover{
+    background-color: orange;
+    color: white;
+}
+
+#full .side #section4 #protfolio #projects .proj p{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(57, 55, 55);
+    font-weight: 700;
+    /* background-color: #fff; */
+}
+
+#full .side #section4 #protfolio #projects .proj p span{
+    font-weight: 100;
+    background-color: transparent;
+}
+
+#full .side #section4 #protfolio #projects .proj a{
+    height: 10%;
+    width: 20%;
+    background-color: rgb(57, 55, 55);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+#full .side #section4 #protfolio #projects .proj summary{
+    overflow-y: scroll;
+    color: white;
+}
+
+#full .side #section4 #protfolio #projects .proj summary details p{
+    color: white;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact details */
+
+#full .side #section5{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#full .side #section5 #contactHead{
+    height: 10%;
+    width: 90%;
+    color: orange;
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: 1px solid white;
+    margin-bottom: 5%;
+}
+
+
+#full .side #section5 #contact{
+    height: 85%;
+    width: 90%;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#full .side #section5 #contact #contact1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+#full .side #section5 #contact #contact1 #details{
+    height: 50%;
+    width: 100%;
+    font-size: 1.5rem;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#full .side #section5 #contact #contact1 #details p i{
+    color: orange;
+    margin: 1.5%;
+}
+
+#full .side #section5 #contact #contact2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+#full .side #section5 #contact #contact2 #details{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#full .side #section5 #contact #contact2 .inpt{
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid; */
+    border: none;
+}
+
+#full .side #section5 #contact #contact2 .inpt input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: rgb(128, 128, 128, 0.2);
+    font-size: 1.5rem;
+    padding: 3%;
+    outline: none;
+}
+
+#full .side #section5 #contact #contact2 #text{
+    height: 45%;
+    width: 100%;
+}
+
+#full .side #section5 #contact #contact2 #text textarea{
+    height: 100%;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 3%;
+    outline: none;
+}
+
+#full .side #section5 #contact #contact2 button{
+    height: 80%;
+    width: 30%;
+    border-radius: 30px;
+    background-color: gray;
+    font-size: 1.2rem;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+#full .side #section5 #contact #contact2 button:hover{
+    background-color: orange;
+}
+
+#full .side #section5 #contact #contact2 button i{
+    background-color:transparent;
+    margin: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+@media(min-width:375px){
+
+    #full{
+        width: 100%;
+    }
+
+    #full nav{
+        height: 100vh;
+        width: 30%;
+        gap: 5%;
+        /* position: fixed; */
+    }
+
+    #full nav #up{
+        height: 23%;
+        width: 100%;
+    }
+
+    #full nav #up #logo{
+        height: 120px;
+        width: 110px;
+        background: white;
+    }
+
+    #full nav #up #desig h1, nav #up #desig h3{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    #full nav #menu{
+        height: 30%;
+    }
+
+    #full nav #menu ul{
+        justify-content: center;
+        gap: 15px;
+    }
+
+    #full nav #menu ul li{
+        height: 35px;
+        font-weight: 900;
+        font-size: 14px;
+    }
+
+
+    #full nav #socialLink{
+        height: 22%;
+        /* border: 2px solid; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #full nav #socialLink #linked{
+        height: 50px;
+        width: 100px;
+    }
+
+    #full nav #socialLink #github{
+        height: 50px;
+        width: 100px;
+    }
+
+    #full nav #socialLink #leetcode{
+        height: 50px;
+        width: 100px;
+    }
+
+    
+
+
+    /* side section */
+
+    #full .side{
+        height: 100vh;
+        width: 70%;
+        position:relative;
+        left: 120px;
+    }
+
+    #full .side #section1{
+        height: 100%;
+        width: 100%;
+    }
+
+    #full .side #section1 .con1 h3{
+        font-size: 25px;
+    }
+
+    #full .side #section1 .con1 h1{
+        height: 5%;
+        /* border: 2px solid; */
+        width: 200px;
+        display: flex;
+        justify-content: space-around;
+        font-size: 25px;
+    }
+
+    #full .side #section1 .con1 p{
+        font-size: 15px;
+    }
+
+    #full .side #section1 .con1 .Btn1{
+        height: 6%;
+        width: 35%;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    
+
+    /* about page style */
+
+    #full .side #section2{
+        /* border: 2px solid; */
+        height: 100vh;
+        width: 100%;
+    }
+
+    #full .side #section2 .con2{
+        border: 2px solid;
+        height: 80%;
+        justify-content: space-evenly;
+    }
+
+    #full .side #section2 .con2 h1{
+        /* border: 2px solid; */
+        font-size: 25px;
+        height: 35px;
+    }
+
+    #full .side #section2 .con2 #details{
+        /* border: 2px solid; */
+        height: 200px;
+    }
+
+    #full .side #section2 .con2 #details p{
+        /* border: 2px solid; */
+        font-size: 15px;
+    }
+
+    #full .side #section2 .con2 #details .detailsBtn{
+        height: 25px;
+        width: 120px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    #full .side #section2 .con2 .check{
+        /* border: 2px solid; */
+        height: 150px;
+    }
+
+    #full .side #section2 .con2 .check .check1{
+        /* border: 2px solid red; */
+        height: 50px;
+    }
+
+    #full .side #section2 .con2 .check .check1 h2{
+        font-size: 9px;
+    }
+
+    #full .side #section2 .con2 .check .check1 p{
+        font-size: 5px;
+    }
+    
+
+    /* my education field */
+
+
+    #full .side #section3{
+        /* border: 2px solid; */
+        height: 100vh;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #full .side #section3 .eduHead{
+        height: 10%;
+        font-size: 20px;
+        /* border: 2px solid red; */
+        padding-top: 25px;
+    }
+
+    #full .side #section3 .education{
+        height: 50%;
+        /* border: 2px solid; */
+        justify-content: center;
+    }
+
+    #full .side #section3 .education .edu{
+        height: 100px;
+        width: 100px;
+    }
+
+    #full .side #section3 .education .edu .circle{
+        width: 65px;
+    }
+
+    #full .side #section3 .education .edu p{
+        font-size: 10px;
+    }
+
+
+
+    /* my education */
+
+    #full .side #section4{
+        height: 100vh;
+        width: 100%;
+        /* justify-content: center; */
+    }
+
+    #full .side #section4 #protfolio{
+        height: 90%;
+        width: 100%;
+    }
+
+    #full .side #section4 #protfolio #headPort{
+        height: 10%;
+        width: 100%;
+        font-size: 25px;
+        padding-top: 15px;
+    }
+
+    #full .side #section4 #protfolio #projects .proj{
+        font-size: 7px;
+        height: 20%;
+        width: 45%;
+    }
+
+    #full .side #section4 #protfolio #projects .proj p{
+        height: 15px;
+        padding-top: 3px;
+    }
+
+    #full .side #section4 #protfolio #projects .proj a{
+        width: 20px;
+        height: 10px;
+    }
+
+
+
+    /* contact style page */
+
+    #full .side #section5{
+        height: 100vh;
+        width: 100%;
+        /* border: 2px solid; */
+        /* justify-content: center; */
+    }
+
+    #full .side #section5 #contactHead{
+        height: 35px;
+        width: 100%;
+        /* border: 2px solid; */
+        font-size: 25px;
+    }
+
+    #full .side #section5 #contact{
+        /* border: 2px solid; */
+        width: 100%;
+        height: 70%;
+    }
+
+    #full .side #section5 #contact #contact1 #details{
+        font-size: 10px;
+        /* border: 2px solid; */
+        height: 20%;
+    }
+
+    #full .side #section5 #contact #contact2{
+        font-size: 15px;
+        /* border: 2px solid; */
+        height: 60%;
+    }
+
+    #full .side #section5 #contact #contact2 form .inpt input{
+        font-size: 10px;
+    }
+
+    #full .side #section5 #contact #contact2 form #text ::placeholder{
+        font-size: 10px;
+    }
+
+    #full .side #section5 #contact #contact2 form .inpt button{
+        width: 55px;
+        height: 30px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    
+}
+
+@media (min-width:380px) {
+
+    #full nav{
+        gap: 6%;
+    }
+
+    #full nav #up{
+        height: 15%;
+    }
+
+    #full nav #menu{
+        height: 5%;
+    }
+
+    #full nav #menu ul{
+        justify-content: center;
+        gap: 5px;
+    }
+
+    #full nav #socialLink{
+        height: 15%;
+        /* border: 2px solid;
+        align-items: center;
+        justify-content: center; */
+    }
+
+    #full .side{
+        height: 100vh;
+        width: 70%;
+        position: relative;
+        left: 30%;
+        border: 2px solid;
+    }
+
+    #full .side #section1{
+        height: 50%;
+        width: 100%;
+        border: 2px solid;
+    }
+
+    #full .side #section2{
+        height: 50%;
+        width: 100%;
+        border: 2px solid;
+    }
+
+    #full .side #section3{
+        height: 50%;
+        width: 100%;
+        border: 2px solid;
+    }
+
+    #full .side #section4{
+        height: 50%;
+        width: 100%;
+        border: 2px solid;
+    }
+
+    #full .side #section5{
+        height: 50%;
+        width: 100%;
+        border: 2px solid;
+    }
+
+
+
+
+
+    .side{
+        /* display: none; */
+    }
+}
+
